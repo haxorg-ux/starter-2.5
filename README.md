@@ -15,10 +15,14 @@ rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
 ## Install NvChad.
-Install required packages.
+Install required packages archllinux.
 ```
 sudo pacman -S --needed neovim unzip luarocks xclip wl-clipboard
+Install required packages parrot.
 ```
+sudo apt install unzip luarocks xclip wl-clipboard
+```
+
 Install NvChad config from https://nvchad.com/docs/quickstart/install
 ```
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
