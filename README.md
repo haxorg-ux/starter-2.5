@@ -18,6 +18,7 @@ rm -rf ~/.local/share/nvim
 Install required packages archllinux.
 ```
 sudo pacman -S --needed neovim unzip luarocks xclip wl-clipboard
+```
 Install required packages parrot.
 ```
 sudo apt install unzip luarocks xclip wl-clipboard
