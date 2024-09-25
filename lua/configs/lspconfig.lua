@@ -44,6 +44,12 @@ lspconfig.pyright.setup({
     },
 })
 
+lspconfig.bashls.setup({
+    on_attach = on_attach,
+    on_init = on_init,
+    capabilities = capabilities,
+})
+
 lspconfig.lua_ls.setup({
     on_attach = on_attach,
     on_init = on_init,
