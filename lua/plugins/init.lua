@@ -101,4 +101,8 @@ return {
             require("configs.mason-dap")
         end,
     },
+
+    { "nvchad/volt", lazy = true },
+    { "nvchad/minty", lazy = true },
+    { "nvchad/menu", lazy = true },
 }
