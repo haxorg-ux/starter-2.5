@@ -105,4 +105,5 @@ return {
     { "nvchad/volt", lazy = true },
     { "nvchad/minty", lazy = true },
     { "nvchad/menu", lazy = true },
+    { "nvchad/showkeys", lazy = true },
 }
